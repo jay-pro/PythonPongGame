@@ -37,8 +37,8 @@ sprites_list.add(ball)
 score1 = 0
 score2 = 0
 
-poping_sound = pygame.mixer.Sound('D:/18110168_GITHUBS/PongGame/poping.wav')
-scoring_sound = pygame.mixer.Sound('D:/18110168_GITHUBS/PongGame/scoring.wav')
+poping_sound = pygame.mixer.Sound('D:/18110168_GITHUBS/PythonPongGame/poping.wav')
+scoring_sound = pygame.mixer.Sound('D:/18110168_GITHUBS/PythonPongGame/scoring.wav')
 game_on = True
 
 
