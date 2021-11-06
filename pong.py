@@ -10,9 +10,10 @@ pygame.init()
 
 black = (0,0,0)
 white = (255,255,255)
+
 size = (800,600)
 game_display = pygame.display.set_mode(size)
-pygame.display.set_caption('pong')
+pygame.display.set_caption('Ping Pong Game')
 
 paddle1 = Paddle(white, 10, 100)
 paddle1.rect.x = 25
@@ -96,9 +97,9 @@ while game_on:
 
     font = pygame.font.Font(None,100)
     text = font.render(str(score1), 1, white)
-    game_display.blit(text,(305,10))
+    game_display.blit(text,(302,10))#305
     text = font.render(str(score2), 1, white)
-    game_display.blit(text,(420,10))
+    game_display.blit(text,(450,10))#420
 
     pygame.display.flip()
 
